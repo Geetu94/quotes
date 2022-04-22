@@ -1,0 +1,51 @@
+body {
+  margin: 2%;
+  
+}
+#main{
+    background-color: rgb(148, 148, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    border-end-end-radius: 500px;
+    border-start-end-radius: 500px;
+}
+    
+#quote {
+    width: 500px;
+    height: 300px;
+    background: rgb(225, 19, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-end-end-radius: 200px;
+    border-start-end-radius: 200px;
+}
+
+      #saidso {
+        font-size: 30px;
+        line-height: 36px;
+        font-family: "Ubuntu";
+      }
+      #author {
+        font-size: 18px;
+        line-height: 32px;
+        align-self: flex-end;
+        font-family: "Verdana";
+      }
+      .nextBtn {
+        width: 100px;
+        align-self: center;
+        margin-top: 30px;
+        padding:20px;
+        background: rgb(250, 176, 176);
+        outline: 9px;
+        cursor: pointer;
+        border-end-end-radius: 40px;
+        border-start-end-radius: 40px;
+
+      }
+    
